@@ -1,2 +1,6 @@
 This is my first file
+<<<<<<< HEAD
 I add second line from git
+=======
+Second line from Mac
+>>>>>>> Another test from mac
