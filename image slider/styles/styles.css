@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#imageSlider {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 520px;
+}
+
+.display {
+    width: 520px;
+    height: 388px;
+}
+
+#displayContainer {
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    top: 158px;
+    width: 50px;
+    height: 72px;
+}
+
+#prev-nav {
+    left: 0px;
+}
+
+#next-nav {
+    right: 0px;
+}
+
+#thumbsContainer {
+    width: 520px;
+    height: 138px;
+    position: relative;
+    overflow: hidden;
+}
+
+#listOfThumbs {
+    position: absolute;
+    list-style: none;
+    height: 120px;
+    padding-left: 12px;
+    margin-top: 12px;
+}
+
+#listOfThumbs>li {
+    display: inline-block;
+    height: 112px;
+    margin-right: 8px;
+    padding: 3px;
+    border: 1px solid #CCC;
+}
+
+.activeThumbs {
+    background: black;
+}
+
+.thumbs {
+    width: 150px;
+    height: 112px;
+}
